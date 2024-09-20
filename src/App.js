@@ -1,11 +1,11 @@
 import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-runtime";
 import { useState } from 'react';
 import './App.css';
-import Attribution from './components/attribution';
+import Attribution from './components/attribution.js';
 import CartButton from './components/cart-button';
 import Navbar from './components/navbar';
 import Slideshow from './components/product-images';
-import Description from './components/description';
+import Description from './components/description.js';
 import Price from './components/price';
 import Quantity from './components/quantity';
 const App = () => {
