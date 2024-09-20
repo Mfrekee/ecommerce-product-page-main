@@ -6,4 +6,9 @@ export default defineConfig({
     server: {
         open: true,
     },
+    build: {
+        rollupOptions: {
+            external: ['/Windows.old/Users/Mfrekemfon/my codes/Front End Mentor/ecommerce-product-page-main']
+        }
+    }
 });
