@@ -1,10 +1,10 @@
 import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-runtime";
 import { useState } from 'react';
 const images = [
-    'src/images/image-product-1.jpg',
-    'src/images/image-product-2.jpg',
-    'src/images/image-product-3.jpg',
-    'src/images/image-product-4.jpg',
+    '/image-product-1.jpg',
+    '/image-product-2.jpg',
+    '/image-product-3.jpg',
+    '/image-product-4.jpg',
 ];
 const Slideshow = () => {
     const [currentIndex, setCurrentIndex] = useState(0);

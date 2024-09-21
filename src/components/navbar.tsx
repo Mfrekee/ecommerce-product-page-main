@@ -11,7 +11,7 @@ const Navbar: React.FC<NavbarProps> = ({ productQuantity, setProductQuantity }) 
     const [isCartOpen, setIsCartOpen] = useState(false);
     const [productName] = useState<string>('Fall Limited Edition Sneakers');
     const productPrice = 125; // Example price for each product
-    const productImage = "./images/image-product-3-thumbnail.jpg";
+    const productImage = "images/image-product-3.jpg";
 
     // Function to handle product removal (set quantity to 0)
     const handleRemoveProduct = () => {
@@ -89,7 +89,7 @@ const Navbar: React.FC<NavbarProps> = ({ productQuantity, setProductQuantity }) 
                                 <span className="sr-only">Open user menu</span>
                                 <img
                                     alt="User Avatar"
-                                    src="src/images/image-avatar.png"
+                                    src="/image-avatar.png"
                                     className="h-8 w-8 rounded-full cursor-pointer"
                                 />
                             </MenuButton>
