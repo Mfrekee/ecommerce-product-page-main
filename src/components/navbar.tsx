@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
+// import productThumbnail from '../images/image-product-3-thumbnail.jpg';
 
 type NavbarProps = {
     productQuantity: number;
@@ -11,7 +12,7 @@ const Navbar: React.FC<NavbarProps> = ({ productQuantity, setProductQuantity }) 
     const [isCartOpen, setIsCartOpen] = useState(false);
     const [productName] = useState<string>('Fall Limited Edition Sneakers');
     const productPrice = 125; // Example price for each product
-    const productImage = "images/image-product-3.jpg";
+    const productImage = "../images/image-product-3-thumbnail.jpg";
 
     // Function to handle product removal (set quantity to 0)
     const handleRemoveProduct = () => {
@@ -29,7 +30,7 @@ const Navbar: React.FC<NavbarProps> = ({ productQuantity, setProductQuantity }) 
                     <button onClick={() => setIsOpen(!isOpen)} className="text-black mt-1 md:hidden">
                         ☰
                     </button>
-                    <img src="src/images/logo.svg" alt="" />
+                    <img src="../images/logo.svg" alt="" />
                 </div>
                 <div className="hidden md:flex space-x-4">
                     <a href="#" className="text-black">Collections</a>
@@ -41,7 +42,7 @@ const Navbar: React.FC<NavbarProps> = ({ productQuantity, setProductQuantity }) 
                 <div className="flex items-center relative">
                     <div className="relative">
                         <img
-                            src="src/images/icon-cart.svg"
+                            src="../images/icon-cart.svg"
                             alt="Cart Icon"
                             className="mr-2 cursor-pointer"
                             onClick={handleCartClick}
@@ -89,7 +90,7 @@ const Navbar: React.FC<NavbarProps> = ({ productQuantity, setProductQuantity }) 
                                 <span className="sr-only">Open user menu</span>
                                 <img
                                     alt="User Avatar"
-                                    src="/image-avatar.png"
+                                    src="../images/image-avatar.png"
                                     className="h-8 w-8 rounded-full cursor-pointer"
                                 />
                             </MenuButton>
