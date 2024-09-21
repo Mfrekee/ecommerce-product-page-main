@@ -6,7 +6,7 @@ const Navbar = ({ productQuantity, setProductQuantity }) => {
     const [isCartOpen, setIsCartOpen] = useState(false);
     const [productName] = useState('Fall Limited Edition Sneakers');
     const productPrice = 125; // Example price for each product
-    const productImage = "src/images/image-product-3-thumbnail.jpg"; // Add product image URL here
+    const productImage = "./images/image-product-3-thumbnail.jpg"; // Add product image URL here
     // Function to handle product removal (set quantity to 0)
     const handleRemoveProduct = () => {
         setProductQuantity(0);
