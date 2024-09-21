@@ -1,4 +1,4 @@
-import '/Windows.old/Users/Mfrekemfon/my codes/Front End Mentor/ecommerce-product-page-main/src/index.css'
+import '../index.css';
 
 function Attribution() {
     return (
