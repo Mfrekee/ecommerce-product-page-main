@@ -12,7 +12,7 @@ const Navbar: React.FC<NavbarProps> = ({ productQuantity, setProductQuantity }) 
     const [isCartOpen, setIsCartOpen] = useState(false);
     const [productName] = useState<string>('Fall Limited Edition Sneakers');
     const productPrice = 125; // Example price for each product
-    const productImage = "../images/image-product-3-thumbnail.jpg";
+    const productImage = "https://th.bing.com/th/id/R.f48ceff9ab3322d4e84ed12a44c484d1?rik=0KQ6OgL4T%2b9uCA&riu=http%3a%2f%2fwww.photo-paysage.com%2falbums%2fuserpics%2f10001%2fCascade_-15.JPG&ehk=kx1JjE9ugj%2bZvUIrjzSmcnslPc7NE1cOnZdra%2f3pJEM%3d&risl=1&pid=ImgRaw&r=0";
 
     // Function to handle product removal (set quantity to 0)
     const handleRemoveProduct = () => {
@@ -30,7 +30,7 @@ const Navbar: React.FC<NavbarProps> = ({ productQuantity, setProductQuantity }) 
                     <button onClick={() => setIsOpen(!isOpen)} className="text-black mt-1 md:hidden">
                         ☰
                     </button>
-                    <img src="../images/logo.svg" alt="" />
+                    <img src="https://th.bing.com/th/id/R.f48ceff9ab3322d4e84ed12a44c484d1?rik=0KQ6OgL4T%2b9uCA&riu=http%3a%2f%2fwww.photo-paysage.com%2falbums%2fuserpics%2f10001%2fCascade_-15.JPG&ehk=kx1JjE9ugj%2bZvUIrjzSmcnslPc7NE1cOnZdra%2f3pJEM%3d&risl=1&pid=ImgRaw&r=0" alt="" />
                 </div>
                 <div className="hidden md:flex space-x-4">
                     <a href="#" className="text-black">Collections</a>
