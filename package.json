@@ -1,37 +1,45 @@
 {
+  "name": "ecommerce-product-page-main",
+  "version": "1.0.0",
+  "main": "main.jsx",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite",
+    "build": "tsc -b && vite build",
+    "dev": "vite",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@headlessui/react": "^2.1.8",
-    "@vitejs/plugin-react": "^4.3.1",
     "framer-motion": "^11.5.4",
     "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-modal": "^3.16.1",
     "react-responsive-carousel": "^3.2.23",
-    "react-slideshow-image": "^4.3.1",
-    "vite": "^5.4.3"
+    "react-slideshow-image": "^4.3.1"
   },
-  "name": "src",
-  "version": "1.0.0",
-  "main": "main.jsx",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "vite",
-    "build": "tsc -b && vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.3",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "typescript-eslint": "^8.0.1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
-    "@types/react": "^18.3.5",
-    "@types/react-dom": "^18.3.0",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.45",
-    "tailwindcss": "^3.4.10",
-    "typescript": "^5.5.4"
-  },
   "homepage": "https://mfrekee.github.io/ecommerce-product-page-main/"
 }
