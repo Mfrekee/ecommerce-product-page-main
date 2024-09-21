@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 // import productThumbnail from '../images/image-product-3-thumbnail.jpg';
 import logo from "../images/logo.svg";
-
+import productImage from "../images/image-product-3-thumbnail.jpg"
+import cartIcon from "../images/icon-cart.svg"
+import userAvatar from "../images/image-avatar.png"
 type NavbarProps = {
     productQuantity: number;
     setProductQuantity: React.Dispatch<React.SetStateAction<number>>; // Allows updating quantity from outside
@@ -13,7 +15,7 @@ const Navbar: React.FC<NavbarProps> = ({ productQuantity, setProductQuantity }) 
     const [isCartOpen, setIsCartOpen] = useState(false);
     const [productName] = useState<string>('Fall Limited Edition Sneakers');
     const productPrice = 125; // Example price for each product
-    const productImage = "https://th.bing.com/th/id/R.f48ceff9ab3322d4e84ed12a44c484d1?rik=0KQ6OgL4T%2b9uCA&riu=http%3a%2f%2fwww.photo-paysage.com%2falbums%2fuserpics%2f10001%2fCascade_-15.JPG&ehk=kx1JjE9ugj%2bZvUIrjzSmcnslPc7NE1cOnZdra%2f3pJEM%3d&risl=1&pid=ImgRaw&r=0";
+    // const productImage = "https://th.bing.com/th/id/R.f48ceff9ab3322d4e84ed12a44c484d1?rik=0KQ6OgL4T%2b9uCA&riu=http%3a%2f%2fwww.photo-paysage.com%2falbums%2fuserpics%2f10001%2fCascade_-15.JPG&ehk=kx1JjE9ugj%2bZvUIrjzSmcnslPc7NE1cOnZdra%2f3pJEM%3d&risl=1&pid=ImgRaw&r=0";
 
     // Function to handle product removal (set quantity to 0)
     const handleRemoveProduct = () => {
@@ -43,7 +45,7 @@ const Navbar: React.FC<NavbarProps> = ({ productQuantity, setProductQuantity }) 
                 <div className="flex items-center relative">
                     <div className="relative">
                         <img
-                            src="../images/icon-cart.svg"
+                            src={cartIcon}
                             alt="Cart Icon"
                             className="mr-2 cursor-pointer"
                             onClick={handleCartClick}
@@ -74,7 +76,7 @@ const Navbar: React.FC<NavbarProps> = ({ productQuantity, setProductQuantity }) 
                                         </button>
                                     </div>
                                     {/* Checkout Button */}
-                                    <a href="https://animated-selkie-9bbe19.netlify.app/" className="mt-4 bg-orange-500 hover:bg-orange-400 text-white font-semibold py-2 w-full rounded-lg block text-center">
+                                    <a href="https://card-component-mb.netlify.app/" className="mt-4 bg-orange-500 hover:bg-orange-400 text-white font-semibold py-2 w-full rounded-lg block text-center">
                                         Checkout
                                     </a>
                                 </div>
@@ -91,7 +93,7 @@ const Navbar: React.FC<NavbarProps> = ({ productQuantity, setProductQuantity }) 
                                 <span className="sr-only">Open user menu</span>
                                 <img
                                     alt="User Avatar"
-                                    src="../images/image-avatar.png"
+                                    src={userAvatar}
                                     className="h-8 w-8 rounded-full cursor-pointer"
                                 />
                             </MenuButton>

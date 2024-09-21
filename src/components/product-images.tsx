@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
+import product1 from '../images/image-product-1.jpg'
+import product2 from '../images/image-product-2.jpg'
+import product3 from '../images/image-product-3.jpg'
+import product4 from '../images/image-product-4.jpg'
 
 const images: string[] = [
-    '/image-product-1.jpg',
-    '/image-product-2.jpg',
-    '/image-product-3.jpg',
-    '/image-product-4.jpg',
+    product1,
+    product2,
+    product3,
+    product4,
 ];
 
 const Slideshow: React.FC = () => {

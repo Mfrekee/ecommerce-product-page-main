@@ -25,7 +25,6 @@ const App: React.FC = () => {
                     </div>
                 </div>
             </div>
-            <p>Heyyyyy</p>
             <Attribution />
 
         </>
