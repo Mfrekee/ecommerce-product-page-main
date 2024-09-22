@@ -17,7 +17,6 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
 
 
 
-
 ## Overview
 
 ### The challenge
@@ -33,7 +32,7 @@ Users should be able to:
 
 ### How it works
 
-![Here's the demo of the product page](./how-it-works.mp4)
+![Here's the demo of the product page](how-it-works.mp4)
 
 ### Links
 
@@ -58,21 +57,6 @@ Users should be able to:
 
 Through this challenge, I learnt how to use Typescript and Tailwind CSS with React, and I understood more about useState and how pass props between components. I also learnt about the Tailwind CSS class names, and I'm actually getting used to them(some sound funny though)🫠. This is my first project with any of these technologies, and It's exciting to see what I have created with them.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
 
 ### Continued development
@@ -82,10 +66,9 @@ const proudOfThisFunc = () => {
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Chat GPT](https://chat.openai.com/) - OpenAI's chatbot helped me with a few issues, especially with the bugs I was facing when trying to deploy to netlify.
+- [Codeium AI](https://codeium.com/) - This helped notably in the initial stages of the project, when I was still trying to set it up by adding React through vite, and adding Tailwind CSS and Typescript. It also offers explanation of errors and proffers solutions to them(though the solutions will not be correct all the time). It offers code completion as well, saving me the hassle of having to type out the code everytime. 
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
