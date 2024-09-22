@@ -32,7 +32,7 @@ Users should be able to:
 
 ### How it works
 
-![Here's the demo of the product page](how-it-works.mp4)
+![Here's the demo of the product page](How-it-works.mp4)
 
 ### Links
 
