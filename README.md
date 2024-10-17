@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FrontEnd Mentor](https://www.frontendmentor.io/solutions/e-commerce-product-page-using-react-typescript-and-tailwind-css-n8L4pDy0_W)
+- Live Site URL: [Netlify](https://product-page-component.netlify.app/)
 
 ## My process
 
